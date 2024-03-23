@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+ nav{
+  
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(140, 6, 6);
+ }
+ nav ul{
+  display: flex;
+  margin-top: 20px;
+ }
+ nav ul li{
+  list-style: none;
+  margin: 0 40px;
+  font-weight: bold;
+ }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 1s ease;
+  }
+  nav ul li a:hover{
+    color:rgba(0, 0, 0, 0.552);
+  }
+ nav .logo img{
+  margin-left: 30px;
+  width: 110px;
+  border-radius: 50%;
+ }
+#accueil {
+    
+    padding: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./ellements/img/study-group-african-people.jpg);
+    background-size: cover;
+    background-position: cente;
+    height: 72vh;
+  }
+
+  .banner {
+    text-align: center;
+  
+  }
+  
+  .banner h1 {
+    font-size: 50px;
+    color:white;
+    margin-top: 15%;
+    text-transform: uppercase;
+    font-family: serif;
+    font-weight: bold;
+  }
+
+  .banner p {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+  }
+  .banner a{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 25px;
+    background-color:rgba(140, 6, 6, 0.9);
+    transition: 1s ease;
+    font-weight: bold;
+  } 
+  .banner a:hover{
+    background-color:rgba(140, 6, 6, 0.544) ;
+  }
+  
+  
+
+  #formations {
+    background-color: #fff;
+    padding: 50px;
+  }
+  #formations h2{
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    background-color: green;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 50px;
+  
+  }
+
+  .formation {
+    text-align: center;
+  }
+
+  .formation img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+  
+  }
+
+  .formation h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+  }
+
+  .formation p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+  }
+  .formation a{
+    text-decoration: none;
+    
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    transition: 1s ease;
+  }
+  .formation a:hover{
+    background-color: rgba(0, 128, 0, 0.56);
+  }
+  .footer{
+    background-color: rgb(140, 6, 6);
+    color: white;
+  }
+  .footer p{
+    text-align: center;
+  }
+  .colonnes{
+    display: flex;
+    justify-content: space-around;
+  }
+  
